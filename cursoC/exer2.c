@@ -1,8 +1,6 @@
 #include <stdio.h>
 
 int main() {
-
-
 // declaração de variaveis
 	int num1;
 	int num2;
@@ -24,7 +22,7 @@ int main() {
 
 	soma = num1 + num2 + num3;
 
-	printf("O seu resultado é: %d", &soma);
+	printf("O seu resultado é: %d", soma);
 
 	return 0;
 }
